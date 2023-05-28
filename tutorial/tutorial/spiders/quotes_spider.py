@@ -2,9 +2,7 @@
 import scrapy
 import os
 from datetime import datetime
-import json
-from tutorial.property_data import PropertyData
-from pathlib import Path
+from tutorial.spiders.property_data import PropertyData
 
 
 class AppraiserSpider(scrapy.Spider):
